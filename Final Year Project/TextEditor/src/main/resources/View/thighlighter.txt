@@ -1,0 +1,29 @@
+keyword {
+	\b(
+	and
+	|always
+	|if
+	|then
+	|else
+	|exists
+	|define
+	|halt
+	|forall
+	|format
+	|stable
+	|struct
+	|list
+	|stop
+	|output
+	|gets
+	)\b
+}
+colon {
+	\:
+}
+bracket {
+	\(|\)|\{|\}|\[|\]
+}
+comment {
+	//[^\n]*|/\*(.|\R)*?\*/
+}

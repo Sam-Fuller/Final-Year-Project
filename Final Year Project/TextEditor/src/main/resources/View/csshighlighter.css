@@ -1,0 +1,10 @@
+.colour {
+	-fx-fill: blue;
+}
+.title{
+	-fx-fill: darkorange;
+	-fx-font-weight: bold;
+}
+.styletype{
+	-fx-fill: darkcyan;
+}

@@ -1,0 +1,61 @@
+keyword {
+	\b(
+	abstract
+	|boolean
+	|break
+	|case
+	|catch
+	|char
+	|class
+	|const
+	|do
+	|double
+	|else
+	|extends
+	|false
+	|final
+	|float
+	|for
+	|goto
+	|if
+	|implements
+	|import
+	|int
+	|interface
+	|long
+	|new
+	|package
+	|private
+	|protected
+	|public
+	|return
+	|short
+	|static
+	|super
+	|this
+	|throw
+	|throws
+	|true
+	|try
+	|void
+	|while
+	)\b
+}
+semicolon {
+	\;
+}
+sqbracket {
+	\[|\]
+}
+cbracket {
+	\{|\}
+}
+char{
+	'\W*.'
+}
+string {
+	"([^"\\]|\\.)*"
+}
+comment {
+	//[^\n]*|/\*(.|\R)*?\*/
+}

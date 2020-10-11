@@ -1,0 +1,8 @@
+console.height
+550
+
+console.width
+950
+
+syntaxHighlighter
+auto

@@ -1,0 +1,139 @@
+!
+<- T
+<- x
+removes one argument
+
+echo
+T <- T
+x <- x
+prints x to the console
+
+newtab
+int <- int
+x <- x
+creates x number of new tabs
+
+newtab
+int <-
+1 <-
+creates 1 new tab
+
+activetab
+int <- int
+index <- index
+sets the active tab to index
+
+activetab
+int <- 
+index <-
+returns the index of the current active tab
+
+getactivetab
+int <-
+index <-
+returns the index of the current active tab
+
+open
+AbsolueFilePath <- AbsolueFilePath
+filepath <- filepath
+oepns the file at filepath
+
+save
+<-
+<-
+saves the current tab at the file it opened
+
+undo
+int <- int
+x <- x
+undoes the last x number of actions
+
+undo
+int <-
+1 <-
+undoes the last action, returns 1
+
+redo
+int <- int
+x <- x
+redoes the last x number of actions
+
+redo
+int <-
+1 <-
+redoes the last action, returns 1
+
+find
+String <- String
+find <- find
+sets the find highlight string to find
+
+find
+<-
+<-
+empties the find highlight string
+
+replace
+String String <- String String
+find replace <- find replace
+replaces all instances of find with replace
+
+replace
+String <- String
+remove <- remove
+removes all instances of x
+
+map
+Function<String, String> <- Function<String, String>
+x <- x
+applies x to all lines (example use: map; x + "text")
+
+add
+int String <- int String
+linenumber content <- linenumber content
+adds a new line with containing content at linenumber
+
+add
+int <- int
+linenumber <- linenumber
+adds an empty line at linenumber
+
+linegen
+int int String <- int int String
+repeat offset text <- repeat offset text
+adds repeat number of new lines starting at line number offset containing text
+
+linegen
+int int <- int int
+repeat offset <- repeat offset
+adds repeat number of empty new lines starting at line number offset
+
+getline
+String <- int
+line <- linenumber
+returns line at position linenumber
+
+remove
+int[] <- int[]
+linenumbers <- linenumbers
+removes lines at given linenumbers (example use: remove; 1; 6; 70)
+
+edit
+int String <- int String
+linenumber text <- linenumber text
+replaces the line at linenumber with text
+
+repeat
+int <- int
+x <- x
+repeats the tailing code x times
+
+filedialog
+AbsolueFilePath <-
+filepath <-
+returns the file path selected in a popup file dialog
+
+help
+<-
+<-
+displays information about every command

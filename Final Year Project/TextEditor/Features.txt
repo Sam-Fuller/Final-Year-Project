@@ -1,0 +1,19 @@
+bracket finishing?
+tag finishing?
+language specific context editing
+
+autorun
+edit reset to undo autorun
+
+Fix lines to work through loops not iterative
+
+sethighlighter
+resethighlighter
+reloadhighlighter
+
+Bracketmatcher
+matches <.> then </.>
+matches { then }
+.replaceAll("foob(.*)foo", "foof$1foo")
+
+allow for list manipulation with integers and strings

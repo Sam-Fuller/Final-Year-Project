@@ -1,0 +1,24 @@
+.keyword {
+	-fx-fill: purple;
+	-fx-font-weight: bold;
+}
+.semicolon {
+	-fx-font-weight: bold;
+}
+.sqbracket {
+	-fx-fill: darkgreen;
+	-fx-font-weight: bold;
+}
+.cbracket {
+	-fx-fill: teal;
+	-fx-font-weight: bold;
+}
+.char {
+	-fx-fill: darkcyan;
+}
+.string {
+	-fx-fill: blue;
+}
+.comment {
+	-fx-fill: cadetblue;
+}
